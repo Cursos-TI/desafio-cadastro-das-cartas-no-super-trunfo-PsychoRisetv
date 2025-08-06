@@ -1,5 +1,22 @@
 #include <stdio.h>
 
+int main () {
+    char estado = SP;
+    char codigo [50] = 1;
+    char cidade {50} = RP;
+    double populacao = 698.642;
+    float pib;
+    int pontos;
+
+    printf("Estado: %c\n", estado);
+    printf("Codigo da cidade: %s\n", codigo);
+    printf("A cidade: %s\n", cidade);
+    printf("A populacao da cidade: %.2f\n", populacao);
+    printf("PIB: %.2f\n", pib);
+    printf("Idade: %d\n", pontos);
+
+    return 0;
+
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
